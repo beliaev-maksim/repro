@@ -7,22 +7,11 @@
     "start": "electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
   "author": "GitHub",
   "license": "CC0-1.0",
   "build": {
-    "appId": "com.ansys_downloader.app",
+    "appId": "com.downloader.app",
     "asar": true,
-    "asarUnpack": [
-      "**/python_build/*",
-      "**/python_build/notifications/*"
-    ],
     "publish": [
       {
         "provider": "generic",

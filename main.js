@@ -1,6 +1,11 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
+const { autoUpdater } = require('electron-updater');
+
+setTimeout(function(){
+        autoUpdater.checkForUpdatesAndNotify();
+    }, 7000);
 
 function createWindow () {
   // Create the browser window.
